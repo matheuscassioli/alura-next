@@ -3,8 +3,8 @@ import Link from '../../../componentes/Link'
 import { theme } from '../../../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../../../theme/components';
 
-const LOGO_ALURA_URL = 'http://placehold.it/94x44';
-const SIDE_IMAGE_URL = 'http://placehold.it/2878x1640'
+const LOGO_ALURA_URL = '/alura-logo.svg';
+const SIDE_IMAGE_URL = '/alura-cases.png'
 
 function SideImage() {
   return (
@@ -44,7 +44,7 @@ function SideImage() {
           }
         }}
       >
-        <Box 
+        <Box
           styleSheet={{
             height: {
               lg: theme.space["x1/1"],
@@ -288,7 +288,7 @@ export default function HomeScreen() {
                       placeholder="Coloque seu email aqui"
                     />
                   </Box>
-                  <Box 
+                  <Box
                     styleSheet={{
                       marginTop: {
                         xs: theme.space.x4,
@@ -301,7 +301,7 @@ export default function HomeScreen() {
                   >
                     <Button
                       type="submit"
-                      // button variant
+                    // button variant
                     >
                       Cadastrar
                     </Button>
