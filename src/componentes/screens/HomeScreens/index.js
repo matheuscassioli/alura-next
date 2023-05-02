@@ -1,7 +1,8 @@
 import Footer from '../../../componentes/patterns/Footer'
-import Link from '../../../componentes/Link'
+import Link from '../../../componentes/Link' 
 import { theme } from '../../../../theme/theme';
-import { Image, Box, Text, Icon, Input, Button } from '../../../../theme/components';
+import { Image, Box, Text, Icon, Input, Button } from '../../../../theme/components'; 
+import PageTitle from '@component/componentes/PageTitle';
 
 const LOGO_ALURA_URL = '/alura-logo.svg';
 const SIDE_IMAGE_URL = '/alura-cases.png'
@@ -20,7 +21,8 @@ function SideImage() {
           sm: theme.space.xcontainer_md,
         }
       }}
-    >
+    > 
+    <PageTitle>Home - Alura Cases</PageTitle>
       <Box
         styleSheet={{
           top: 0,

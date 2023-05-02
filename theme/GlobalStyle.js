@@ -47,7 +47,7 @@ export default function GlobalStyle() {
           flex-direction: column;
         }
         #__next > * {
-          flex: 1;
+          flex: 0;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
