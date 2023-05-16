@@ -3,7 +3,7 @@ import Link from '../../../componentes/Link'
 import { theme } from '../../../../theme/theme';
 import { Box, Text  } from '../../../../theme/components';  
 
-export default function FAQScreen({ faq }) {
+export default function FAQScreen({ faq }) { 
     return (
         <Box
             styleSheet={{
